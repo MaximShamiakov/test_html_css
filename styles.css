@@ -1,0 +1,90 @@
+/* 
+МЕНЯЕМ ПОЛОЖЕНИЕ ЧЕГО ЛИБО
+    position: relative;
+    bottom: 100px;
+    top: 20px;
+    right: 20px;
+    left: 20px;
+*/
+.header {
+    color: red;
+    font-weight: 100;
+    position: relative;
+    bottom: 30px;
+}
+
+.header_name_kafe {
+    color: red;
+    font-weight: 200;
+    position: relative;
+    bottom: 320px;
+}
+
+.lesson {
+    position: relative;
+    bottom: 150px;
+}
+
+.search {
+    position: relative;
+    bottom: 160px;
+}
+
+.header_ {
+    color: blue;
+    font-weight: bold;
+    position: relative;
+    bottom: 100px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+
+a:active {
+    color: chartreuse
+}
+
+a.focus {
+    font-weight: bold;
+}
+
+h4::first-letter {
+    font-size: 40px;
+}
+
+p::selection {
+    background-color: yellow;
+    color: red;
+}
+
+
+.txt {
+    color: blue;
+    position: relative;
+    bottom: 150px;
+}
+
+.rolls {
+    position: relative;
+    bottom: 245px;
+
+
+
+}
+
+.wok {
+    position: relative;
+    bottom: 465px;
+}
+
+.pizza {
+    position: relative;
+    bottom: 680px;
+}
