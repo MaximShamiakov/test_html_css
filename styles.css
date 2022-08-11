@@ -94,3 +94,8 @@ p::selection {
     bottom: 680px;
     text-shadow: 1px 2px 5px red;
 }
+
+body {
+    background-image: url(../test_html_css/img/mini-kafe.jpg);
+    background-attachment: fixed;
+}
