@@ -18,7 +18,7 @@
     color: red;
     font-weight: 200;
     position: relative;
-    bottom: 320px;
+    bottom: 480px;
     text-shadow: 1px 2px 5px black;
 }
 
@@ -57,7 +57,7 @@ a.focus {
     font-weight: bold;
 }
 
-h4::first-letter {
+h3::first-letter {
     font-size: 40px;
 }
 
@@ -70,12 +70,12 @@ p::selection {
 .txt {
     color: blue;
     position: relative;
-    bottom: 150px;
+    bottom: 160px;
 }
 
 .rolls {
     position: relative;
-    bottom: 245px;
+    bottom: 430px;
     text-shadow: 1px 2px 5px red;
 
 
@@ -84,14 +84,14 @@ p::selection {
 
 .wok {
     position: relative;
-    bottom: 465px;
+    bottom: 665px;
     text-shadow: 1px 2px 5px red;
 }
 
 
 .pizza {
     position: relative;
-    bottom: 680px;
+    bottom: 905px;
     text-shadow: 1px 2px 5px red;
 }
 
