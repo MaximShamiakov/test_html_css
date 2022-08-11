@@ -11,6 +11,7 @@
     font-weight: 100;
     position: relative;
     bottom: 30px;
+    text-shadow: 1px 2px 5px black;
 }
 
 .header_name_kafe {
@@ -18,6 +19,7 @@
     font-weight: 200;
     position: relative;
     bottom: 320px;
+    text-shadow: 1px 2px 5px black;
 }
 
 .lesson {
@@ -74,6 +76,7 @@ p::selection {
 .rolls {
     position: relative;
     bottom: 245px;
+    text-shadow: 1px 2px 5px red;
 
 
 
@@ -82,9 +85,17 @@ p::selection {
 .wok {
     position: relative;
     bottom: 465px;
+    text-shadow: 1px 2px 5px red;
 }
+
 
 .pizza {
     position: relative;
     bottom: 680px;
+    text-shadow: 1px 2px 5px red;
+}
+
+body {
+    background-image: url(../test_html_css/img/mini-kafe.jpg);
+    background-attachment: fixed;
 }
