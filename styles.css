@@ -57,8 +57,9 @@ a.focus {
     font-weight: bold;
 }
 
-h3::first-letter {
+h1::first-letter {
     font-size: 40px;
+
 }
 
 p::selection {
@@ -93,9 +94,42 @@ p::selection {
     position: relative;
     bottom: 905px;
     text-shadow: 1px 2px 5px red;
+    transition-duration: 500ms;
+    transition-property: transform;
 }
+
+.pizza:hover {
+    transform: scale(1.2);
+}
+
 
 body {
     background-image: url(../test_html_css/img/mini-kafe.jpg);
     background-attachment: fixed;
+}
+
+.order {
+    position: relative;
+    bottom: 630px;
+    text-shadow: 1px 2px 5px red
+}
+
+button {
+    width: 78px;
+    height: 35px;
+    background-image: ../ 23;
+    background-size: cover;
+    background-position: top;
+    text-indent: -9999px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-position: center;
+}
+
+button:active {
+
+    background-position: bottom;
 }
