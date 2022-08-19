@@ -1,37 +1,81 @@
-<!doctype html>
-<html>
-  <head>
-    <title>My first app</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-<!--<a></a> - ССЫЛКА-->
-<!--<h1><h1> - ЗАГОЛОВОК-->
-<!--<strong></strong> - ЖИРНЫЙ ТЕКСТ-->
-<!--<em></em> - КУРСИВНЫЙ ТЕКСТ-->
-<!--<small></small> - МАЛЕНЬКИЙ ТЕКСТ-->
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My first app</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 <body>
 
-  <h1><p class="header"><em>Hello world</em></p></h1>
-  <p class="header_" align="right">Шамяков <br> Максим <br> Николаевич <br>   тел +375336260420</p>
-  <a class="lesson" href="https://youtu.be/1X8FNuy32ZM"> <li>уроки по CSS</li></a>
-  <p class="search"><input placeholder="поиск"></p>
-  
-  <h3><p class="txt">Концепциякафе <br> «Своя атмосфера» интерьер, <br> красивый вид из
-    окна и <br> превосходная кухня.<br> Для детей всегда открыта <br>
-    детская игровая комната с <br> квалифицированной няней,
-    которая всегда <br> присмотрит за детками.
-    Стены кафе теплого бежевого цвета. Расслабляющая музыка.</p></h3>
-  <center><p class="header_name_kafe"><img src="../test_html_css/img/kisspng-bistro-cafe-ermita-conrad-manila-restaurant-restaurant-logo-5abe74dc0e0e31.7742353315224311960576.png" width="500"></p></center>
 
-    <a class="rolls" href="https://youtu.be/1X8FNuy32ZM"> <h3><li>сеты - роллы</li></h3> <img src="../test_html_css/img/pngwing.com (2).png" width="200"></a>
-    <center><a class="wok" href="https://youtu.be/1X8FNuy32ZM"> <h3><li>вок</li></h3> <img src="../test_html_css/img/kisspng-chinese-noodles-japanese-cuisine-chinese-cuisine-s-5be6836404f2e3.9612777015418335720203.png" width="160"></center>
-    <a align="right" class="pizza" href="https://youtu.be/1X8FNuy32ZM"> <h3><li>пиццы</li></h3><img align="right" src="../test_html_css/img/pngwing.com (3).png" height="170"></a>
-      
+  <div class="wrapper">
+    <div class="container">
+<!------------------------------------------------ ДОБАВЛЕННОЕ ------------------------------------------>
+<header class="list">
+  <nav class="menu">
+    <ul>
+      <li class="list_"><a href="#"><i class="fa fa-"></i> Меню</a>
+        <ul>
+          <li><a href="#">Роллы</a></li>
+          <li><a href="#">Wok</a></li>
+          <li><a href="#">Десерт</a></li>
+          <li><a href="#">Пицца</a></li>
+          <li><a href="#">Напитки</a></li>
+        </ul>
+      </li>
+      <li class="list_"><a href="#"><i class="fa fa-"></i> Акции </a>
+      <ul>
+        <li><a href="#">Два ролла по цене одного</a></li>
+        <li><a href="#">сет-АКИТА -20%</a></li>
+        <li><a href="#">три пиццы по цене двух</a></li>
+      </ul>
+      </li>
+      <li class="list_"><a href="#"><i class="fa fa-"></i> Контакты</a>
+        <ul>
+          <li><a href="#">Тел 33-626 04 20</a></li>
+          <li><a href="#">г. Могилёв</a></li>
+        </ul>
+      </li>
+      <li class="list_"><a href="#"><i class="fa fa-"></i> Доставка </a>
+        <ul>
+          <li><a href="#">24/7</a></li>
+          <li><a href="#">В течении 30мин</a></li>
+        </ul>
+      </li>
+      <li class="list_"><a href="#"><i class="fa fa-"></i> оплата </a>
+        <ul>
+          <li><a href="#">Наличные</a></li>
+          <li><a href="#">Карточка</a></li>
+        </ul></li>
+    </ul>
+</header>
+<!------------------------------------------------ ДОБАВЛЕННОЕ ------------------------------------------>
+      <div class="photo"></div>
 
-    <h1 class="wok">оставить предзаказ</h1>
-    <h1 class="wok">тел 33 626-04-20</h1>
+        <dev class="flex-container">
+          <dev class="hover_"><a href="https://youtu.be/1X8FNuy32ZM"> <h2><li><em>Пиццы</em></li></h2><img src="../test_html_css/img/pngwing.com (3).png" height="170"></a></dev>
+          <dev class="hover_"><a href="https://youtu.be/1X8FNuy32ZM"> <h2><li><em>Сеты - роллы</em></li></h2> <img src="../test_html_css/img/pngwing.com (2).png" width="200"></a></dev>
+          <dev class="hover_"><a href="https://youtu.be/1X8FNuy32ZM"> <h2><li<em>Вок</em></li></h2> <img src="../test_html_css/img/kisspng-chinese-noodles-japanese-cuisine-chinese-cuisine-s-5be6836404f2e3.9612777015418335720203.png" width="160"></a></dev>
+          <dev class="hover_"><a href="https://youtu.be/1X8FNuy32ZM"> <h2><li><em>Заказы</em></li></h2><img src="../test_html_css/img/pngegg.png" height="150"></a></dev>
+        </dev>
 
-    
+        <h3>Что у нас можно заказать</h3>
+        <dev class="look">
+          <div class="look_photo_1"></div>
+          <div class="look_photo_2"></div>
+          <div class="look_photo_3"></div>
+          <div class="look_photo_4"></div>
+          <div class="look_photo_5"></div>
+          <div class="look_photo_6"></div>
+        </dev>
+        <!------------------------------------------------ ДОБАВЛЕННОЕ ------------------------------------------>
+
+        <!------------------------------------------------ ДОБАВЛЕННОЕ ------------------------------------------>
+
+
+      </div>    
+  </div>
 </body>
 </html>
